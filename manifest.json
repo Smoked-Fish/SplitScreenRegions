@@ -6,6 +6,7 @@
   "UniqueID": "Espy.SplitScreenRegions",
   "EntryDll": "SplitScreenRegions.dll",
   "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:23669" ],
   "Dependencies": [
     {
       "UniqueID": "spacechase0.GenericModConfigMenu",
