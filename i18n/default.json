@@ -20,10 +20,10 @@
   "Config.SplitScreenRegions.W.Name": "Player {{player}} - Width",
   "Config.SplitScreenRegions.H.Name": "Player {{player}} - Height",
 
-  "Config.SplitScreenRegions.X.Description": "The left position of {{player}}'s viewport.",
-  "Config.SplitScreenRegions.Y.Description": "The top position of {{player}}'s viewport.",
-  "Config.SplitScreenRegions.W.Description": "The width of {{player}}'s viewport.",
-  "Config.SplitScreenRegions.H.Description": "The height of {{player}}'s viewport.",
+  "Config.SplitScreenRegions.X.Description": "The left position of Player {{player}}'s viewport.",
+  "Config.SplitScreenRegions.Y.Description": "The top position of Player {{player}}'s viewport.",
+  "Config.SplitScreenRegions.W.Description": "The width of Player {{player}}'s viewport.",
+  "Config.SplitScreenRegions.H.Description": "The height of Player {{player}}'s viewport.",
 
   "Config.SplitScreenRegions.Reset.Name": "Reset",
   "Config.SplitScreenRegions.Reset.Description": "Resets this players values",
