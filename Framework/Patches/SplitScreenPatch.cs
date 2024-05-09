@@ -54,7 +54,7 @@ namespace SplitScreenRegions.Framework.Patches
             if (__instance.IsMainInstance && Game1.graphics.SynchronizeWithVerticalRetrace != Game1.options.vsyncEnabled)
             {
                 Game1.graphics.SynchronizeWithVerticalRetrace = Game1.options.vsyncEnabled;
-                IGameLogger log = (IGameLogger)typeof(Game1).GetField("log", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(__instance);
+                IGameLogger log = (IGameLogger)typeof(Game1).GetField("log", BindingFlags.NonPublic | BindingFlags.Static).GetValue(__instance);
                 log.Verbose("Vsync toggled: " + Game1.graphics.SynchronizeWithVerticalRetrace);
             }
             Game1.graphics.ApplyChanges();
